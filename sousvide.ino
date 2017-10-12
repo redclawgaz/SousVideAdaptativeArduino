@@ -103,11 +103,11 @@
 #define FIRST_RAMP_CUTOFF_RATIO 0.65
 
 // Security features
-#define MIN_TARGET_TEMP 50   /*sufficient for most sous-vide recipes*/
-#define MAX_TARGET_TEMP 90   /*sufficient for most sous-vide recipes*/
-#define SHUTDOWN_TEMP 95   /*shutdown if temp reaches that temp*/
-#define MAX_UPTIME_HOURS 24   /*shutdown after 24 hours of operation*/
-#define MAX_HEATINGTIME_NO_TEMP_CHANGE_MINUTES 5   /*detect when temp sensor is not in the water and prevent overheating*/
+#define MIN_TARGET_TEMP 20   /*sufficient for most beer recipes*/
+#define MAX_TARGET_TEMP 30   /*sufficient for most beer recipes*/
+#define SHUTDOWN_TEMP 35   /*shutdown if temp reaches that temp*/
+#define MAX_UPTIME_HOURS 240   /*shutdown after 24 hours of operation*/
+#define MAX_HEATINGTIME_NO_TEMP_CHANGE_MINUTES 555   /*detect when temp sensor is not in the water and prevent overheating*/
 
 // regulation
 #define MIN_SWITCHING_TIME 1500  /* Minimum ON duration of the heating element */
